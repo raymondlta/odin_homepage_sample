@@ -1,15 +1,60 @@
 body {
-
+    font-family: 'Roboto', sans-serif;
 }
 
-.header {
-
+.header, .footer {
+    background-color: #1f2937;
 }
 
 .logo {
-    
+    font-size: 24px;
+    color: #f9faf8;
 }
 
-.nav-bar {
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
+.link-list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+}
+
+.image-list, .image-text, .quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.image-text {
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.dialog-box, .dialog-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+
+.button-border {
+    border-color: #f9faf8; /* does not appear to be doing anything */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
