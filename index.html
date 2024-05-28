@@ -7,70 +7,66 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Odin Homepage</title>
-        <meta name="description" content="Homepage sample from the Odin Project">
+        <title>Odin Homepage - TEST</title>
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--div class="test"-->
-        <div class="header">
-            <div class="nav-bar">
+        <div class="flex-container header header-text">
+            <div class="navbar">
                 <div class="logo"><strong>Header Logo</strong></div>
-                <ul class="link-list">
+                <ul class="links">
                     <li><a class="subtext" href="#">header link one</a></li>
-                    <li><a class="subtext" href="#">header link one</a></li>
-                    <li><a class="subtext" href="#">header link one</a></li>
+                    <li><a class="subtext" href="#">header link two</a></li>
+                    <li><a class="subtext" href="#">header link three</a></li>
                 </ul>
             </div>
             <div class="banner">
                 <div class="banner-text">
-                    <div class="banner-title">
-                        <strong>This website is awesome</strong>
-                    </div>
-                    <p class="subtext">This website has some subtext that foes here under the main title. It's a smaller font and the color is lower contrast</p>
-                    <button class="dialog-button no-border"><strong>Sign up</strong></button>
+                    <div class="banner-header">This website is awesome</div>
+                    <div class="banner-subtext subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+                    <button class="signup-button"><strong>Sign up</strong></button>
                 </div>
-                <div class="banner-image">
-                    <img src="" alt="this is a placeholder for an image">
+                <div class="banner-image subtext">this is a placeholder for an image</div>
+            </div>
+        </div>
+        <div class="flex-container image-content">
+            <div class="image-header subheader"><strong>Some random information.</strong></div>
+            <div class="image-list subtext">
+                <div class="image-item">
+                    <div class="sub-image"></div>
+                    <div class="image-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="image-item">
+                    <div class="sub-image"></div>
+                    <div class="image-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="image-item">
+                    <div class="sub-image"></div>
+                    <div class="image-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="image-item">
+                    <div class="sub-image"></div>
+                    <div class="image-text">this is some subtext under an illustration or image</div>
                 </div>
             </div>
         </div>
-        <div class="image-content"><strong>Some random information.</strong>
-            <div class="image-list">
-                <div class="image-box">
-                    <p class="image-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="image-box">
-                    <p class="image-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="image-box">
-                    <p class="image-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="image-box">
-                    <p class="image-text">this is some subtext under an illustration or image</p>
-                </div>
+        <div class="flex-container quote-background subheader">
+            <div class="quote-container">
+                <div class="quote-text"><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em></div>
+                <div class="quote-author"><strong>-Thor, God of Thunder</strong></div>
             </div>
         </div>
-        <div class="quote">
-            <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.</em>
-            <strong>-Thor, God of Thunder</strong>
-        </div>
-        <div class="dialog-content">
+        <div class="flex-container dialog">
             <div class="dialog-box">
                 <div class="dialog-text">
-                    <strong>Call to action! It's time!</strong>
-                    <p class="subtext">Sign up for our product by clicking that button right over there!</p>
+                    <div class="dialog-header header-text"><strong>Call to action! It's time!</strong></div>
+                    <div class="dialog-subtext subtext">Sign up for our product by clicking that button right over there!</div>
                 </div>
-                <button class="dialog-button button-border"><strong>Sign up</strong></button>
-            </div>
-            <div class="footer subtext">
-                Copyright © The Odin Project 2021
+                <button class="signup-button dialog-button"><strong>Sign up</strong></button>
             </div>
         </div>
-        <!--/div-->
+        <div class="footer subtext">Copyright © The Odin Project 2021</div>
     </body>
 </html>

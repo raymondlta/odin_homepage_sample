@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    font-family: Roboto, serif;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.subheader {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.flex-container {
+    /*border: 2px dashed red;*/
+    padding: 0 15%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.navbar {
+    /*border: 2px dotted green;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #8a8b8d;
+}
+
+.banner {
+    /*border: 2px solid blue;*/
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text, .banner-image {
+    /*border: 2px dotted orange;*/
+    flex: 1;
+}
+
+.banner-text {
+    text-align: start;
+}
+
+.banner-header {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 4px 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-button:active {
+    background-color: #295daf;
+}
+
+.banner-image {
+    background-color:#8a8b8d;
+    height: 200px;
+    flex: 0 0 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.image-header {
+    border: 2px dotted green;
+}
+*/
+.image-list {
+    /*border: 2px solid blue;*/
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-item {
+    /*border: 2px dotted orange;*/
+    flex: 0 0 150px;
+}
+
+.image-text {
+    color: #1f2937;
+}
+
+.sub-image {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    height: 150px;
+}
+
+.quote-background {
+    background-color: #e5e7eb;
+    justify-content: space-evenly;
+}
+/*
+.quote-container {
+    border: 2px dashed orange;
+}
+*/
+.quote-text {
+    /*border: 2px dotted green;*/
+    text-align: start;
+}
+
+.quote-author {
+    /*border: 2px solid blue;*/
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dialog {
+    justify-content: space-evenly;
+}
+
+.dialog-box {
+    /*border: 2px dotted green;*/
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dialog-text {
+    text-align: start;
+}
+
+/*
+.dialog-header, .dialog-subtext {
+    border: 2px solid purple;
+}
+*/
+.dialog-button {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    padding: 32px 0px;
+}
